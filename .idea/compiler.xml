@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="horarios-infra-export" />
+        <module name="horarios-api" />
+        <module name="horarios-domain" />
+        <module name="horarios-infra-persistence" />
+        <module name="horarios-engine" />
+        <module name="horarios-application" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="horarios-api" options="-parameters" />
+      <module name="horarios-application" options="-parameters" />
+      <module name="horarios-domain" options="-parameters" />
+      <module name="horarios-engine" options="-parameters" />
+      <module name="horarios-infra-export" options="-parameters" />
+      <module name="horarios-infra-persistence" options="-parameters" />
+    </option>
+  </component>
+</project>
